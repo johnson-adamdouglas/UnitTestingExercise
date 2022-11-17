@@ -39,6 +39,10 @@ namespace UnitTestingExercise.Tests
 
         [Theory]
         [InlineData(5, 10, 50)]//Add test data <-------
+        [InlineData(5, 5, 25)]
+        [InlineData(8, 5, 40)]
+        [InlineData(6, 10, 60)]
+        [InlineData(2, 8, 16)]
         public void MultiplyTest(int num1, int num2, int expected)
         {
             //Start Step 7 here:
